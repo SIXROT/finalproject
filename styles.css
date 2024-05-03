@@ -1,19 +1,16 @@
-/* Resetting default browser styles */
-body, h1, h2, h3, p, ul, li {
-    margin: 0;
-    padding: 0;
-}
 
 /* Setting default font and background color */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
+    background-color: #f0f0f0; /* Grey background color */
+    font-family: Arial, sans-serif; /* Default font family */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
 }
 
 /* Header styles */
 .header {
-    background-color: #333;
-    color: #fff;
+    background-color: #ccc;
+    color: #f0f0f0;
     padding: 20px 0;
     text-align: center;
 }
@@ -25,7 +22,7 @@ body {
 
 /* Navigation styles */
 .navbar {
-    background-color: #555;
+    background-color: #ccc;
     padding: 10px 0;
 }
 
@@ -40,7 +37,7 @@ body {
 }
 
 .navbar ul li a {
-    color: #fff;
+    color: #f0f0f0;
     text-decoration: none;
     font-size: 1.2em;
 }
