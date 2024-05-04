@@ -18,3 +18,37 @@ h1, h2, h3, p {
   padding: 5px; /* Optional: Add padding to give some space between text and border */
 }
 
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px; /* Optional: Adjust spacing between menu items */
+}
+
+nav ul li:last-child {
+  margin-right: 0; /* Remove margin from the last menu item */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333; /* Link color */
+}
