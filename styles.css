@@ -1,77 +1,12 @@
 
-/* Setting default font and background color */
+/* Apply red text color and black background to body */
 body {
-    background-color: #f0f0f0; /* Grey background color */
-    font-family: Arial, sans-serif; /* Default font family */
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
+    color: red;
+    background-color: black;
 }
 
-/* Header styles */
-.header {
-    background-color: #ccc;
-    color: #f0f0f0;
-    padding: 20px 0;
-    text-align: center;
-}
-
-.header h1 {
-    margin: 0;
-    font-size: 2em;
-}
-
-/* Navigation styles */
-.navbar {
-    background-color: #ccc;
-    padding: 10px 0;
-}
-
-.navbar ul {
-    list-style-type: none;
-    text-align: center;
-}
-
-.navbar ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-.navbar ul li a {
-    color: #f0f0f0;
-    text-decoration: none;
-    font-size: 1.2em;
-}
-
-.navbar ul li a:hover {
-    text-decoration: underline;
-}
-
-/* Main content styles */
-.container {
-    width: 80%;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.container h2 {
-    margin-bottom: 20px;
-}
-
-.container p {
-    line-height: 1.5;
-}
-
-/* Footer styles */
-.footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-}
-
-.footer p {
-    margin: 0;
+/* Optionally, you can style specific elements */
+h1, h2, h3, p {
+    color: red; /* Red text color */
+    background-color: black; /* Black background color */
 }
