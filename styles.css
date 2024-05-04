@@ -1,12 +1,29 @@
 
-/* Apply red text color and black background to body */
+
 body {
     color: red;
     background-color: black;
 }
 
-/* Optionally, you can style specific elements */
+
 h1, h2, h3, p {
     color: red; /* Red text color */
     background-color: black; /* Black background color */
+}
+
+/* Add borders around all text */
+body {
+    padding: 20px; /* Add padding to create space between borders and text */
+}
+
+/* Style for h1 elements */
+h1 {
+    border: 2px solid #333; /* Add a solid border around h1 elements */
+    padding: 10px; /* Add padding to create space inside the border */
+}
+
+/* Style for p elements */
+p {
+    border: 1px dashed #999; /* Add a dashed border around p elements */
+    padding: 5px; /* Add padding to create space inside the border */
 }
