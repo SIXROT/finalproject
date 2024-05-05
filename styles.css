@@ -50,5 +50,19 @@ nav ul li:last-child {
 
 nav ul li a {
   text-decoration: none;
+    
+.image-container {
+  display: inline-block;
+  border: 10px solid #ff69b4; 
+  border-radius: 20px; 
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  overflow: hidden; 
+}
+
+img {
+  display: block;
+  width: 100%; 
+  height: auto; 
+}
   color: #333; 
 }
