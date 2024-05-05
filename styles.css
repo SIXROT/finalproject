@@ -7,15 +7,15 @@ body {
 
 
 h1, h2, h3, p {
-    color: black; /* Red text color */
-    background-color: grey; /* Black background color */
-    text-align: left;
+    color: black;
+    background-color: grey; 
+    text-align: center;
 }
 
 
 .black-border {
-  border: 2px solid #000; /* Black border with 2px thickness */
-  padding: 5px; /* Optional: Add padding to give some space between text and border */
+  border: 2px solid #000; 
+  padding: 5px; 
 }
 
 .button {
@@ -31,7 +31,7 @@ h1, h2, h3, p {
 }
 
 .button:hover {
-  background-color: #0056b3;
+  background-color: #black;
 }
 
 nav ul {
@@ -41,14 +41,14 @@ nav ul {
 
 nav ul li {
   display: inline;
-  margin-right: 10px; /* Optional: Adjust spacing between menu items */
+  margin-right: 20px; 
 }
 
 nav ul li:last-child {
-  margin-right: 0; /* Remove margin from the last menu item */
+  margin-right: 0; 
 }
 
 nav ul li a {
   text-decoration: none;
-  color: #333; /* Link color */
+  color: #333; 
 }
